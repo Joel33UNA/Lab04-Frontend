@@ -3,9 +3,9 @@ package com.example.lab04_frontend.Logica
 import java.io.Serializable
 
 open class Usuario : Serializable {
-    private var cedula: Int = 0
-    private var clave: String? = null
-    private var rol: String? = null
+    var cedula: Int = 0
+    var clave: String? = null
+    var rol: String? = null
 
     constructor(cedula:Int, clave:String, rol:String) {
         this.cedula = cedula
