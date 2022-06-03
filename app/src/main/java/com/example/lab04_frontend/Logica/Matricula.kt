@@ -1,6 +1,8 @@
 package com.example.lab04_frontend.Logica
 
-class Matricula {
+import java.io.Serializable
+
+class Matricula : Serializable {
     private var codigo = 0
     private var nota = 0
     private var estudiante: Estudiante? = null

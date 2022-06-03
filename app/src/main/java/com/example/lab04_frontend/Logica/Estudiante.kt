@@ -1,5 +1,7 @@
 package com.example.lab04_frontend.Logica
 
+import java.io.Serializable
+
 import java.sql.Date
 
 class Estudiante : Usuario {

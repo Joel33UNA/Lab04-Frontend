@@ -1,5 +1,7 @@
 package com.example.lab04_frontend.Logica
 
+import java.io.Serializable
+
 class Profesor : Usuario{
     private var nombre: String? = null
     private var telefono = 0

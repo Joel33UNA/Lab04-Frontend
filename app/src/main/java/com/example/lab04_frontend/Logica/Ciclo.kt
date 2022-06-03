@@ -1,8 +1,10 @@
 package com.example.lab04_frontend.Logica
 
+import java.io.Serializable
+
 import java.sql.Date
 
-class Ciclo {
+class Ciclo : Serializable {
     private var codigo = 0
     private var anio = 0
     private var numeroCiclo = 0
